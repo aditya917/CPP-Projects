@@ -11,7 +11,7 @@ int main(){
 
     double dietSodas;
 
-    cout << "Artificial mouse needed to kill a mouse: ";
+    cout << "Artificial sweetener needed to kill a mouse: ";
     cin >> amountToKillMouse;
 
     cout << "Weight of the mouse: ";
@@ -24,7 +24,7 @@ int main(){
 
     dietSodas = amountToKillHuman/ARTIFICIAL_SWEETENER;
 
-    cout << "It would take " << dietSodas << " to kill a human." << endl;
+    cout << "It would take " << dietSodas << " grams to kill a human." << endl;
 
     return 0;
 }
