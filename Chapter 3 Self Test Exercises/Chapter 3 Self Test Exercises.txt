@@ -1,0 +1,71 @@
+1.  4.0
+    4.0
+    8.0
+    8.0
+    8.0
+    1.21
+    3
+    3
+    0
+    3.0
+    3.5
+    3.5
+    6.0
+    6.0
+    5.0
+    4.5
+    4.5
+    3
+    3.0
+    3.0
+
+2a. sqrt(x+y)
+ b. sqrt(x, y+7)
+ c. sqrt(area + fudge)
+ d. sqrt(time + tide) / nobody
+ e. (-b ± sqrt(b*b - 4*a*c))/(2*a)
+ f. abs(x-y)
+
+3.  for(int i = 1; i<11; i++){
+        cout << sqrt(i) << endl;
+    }
+
+4. Represents status of the exit function to parent process.
+
+5.  srand(5);
+    rand() %10 + 5;
+
+6.  srand("enter seed");
+    rand()%1.0;
+
+7.  W
+
+8. check selftestexercise8
+
+9. check selftestexercise9
+
+10. yes
+
+11. For predefined functions you have to use the #include keyword along with the name of the library.
+    For user-defined functions you have to declare the function as well as provide the code for it as well.
+
+12. check selftestexercise12
+
+13. check selftestexercise13
+
+14. come back
+
+15. Hello
+    Goodbye
+    One more time
+    Hello
+    End of program
+
+16. The program would compile but it would have a runtime error because you cannot divide by zero. 
+
+17. check selftestexercise17
+
+18. done
+
+19. precondition: number should not be negative
+    postcondition: return the square root of the number

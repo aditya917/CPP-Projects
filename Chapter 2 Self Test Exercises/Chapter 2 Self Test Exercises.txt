@@ -1,0 +1,132 @@
+1a. true 
+ b. true
+ c. true
+ d. true
+ e. false
+ f. true
+ g. false
+ h. true
+ i. true
+ j. false
+ k. false
+ l. 0
+
+2.  (2<x) && (x<3)
+
+3.  (x<-1) || (x>2)
+
+4.  (x>1) && (x<3)
+
+5.  No 
+
+6.  int score = 50;
+    if(score>100){
+        cout << "High" << endl;
+    }
+    else{
+        cout << "Low" << endl;
+    }
+
+7.  double savings;
+    double expenses;
+    if(savings>=expenses){
+        cout << "Solvent" << endl;
+        savings-=expenses;
+        expenses=0;
+    }
+    else{
+        cout << "Bankrupt" << endl;
+    }
+
+8.  int exam;
+    int programsDone;
+    if((exam>=60) && (programsDone>=10)){
+        cout << "Passed" << endl;
+    }
+    else{
+        cout << "Failed" << endl;
+    }
+
+9.  int temperature;
+    int pressure;
+    if((temperature >= 100) || (pressure>=200)){
+        cout << "Warning" << endl;
+    }
+    else{
+        cout << "OK" << endl;
+    }
+
+10a. "0 is false"
+  b. "1 is true"
+  c. "-1 is true"
+
+11. Start
+    Hello from the second if.
+    End 
+    Start again
+    End again
+
+12. large
+
+13. small
+
+14. medium
+
+15. int n = 0;
+    if(n < 0){
+        cout << "N is negative" << endl;   
+    }
+    else if((0<=n) || (n<=100)){
+        cout << "N is between 0 and 100" << endl;
+    }
+    else{
+        cout << "N is greater than 100" << endl;
+    }
+
+16. 3 2 1 0
+
+17. 2 1 7 5
+
+18. 2 1 0
+
+19. 2 1
+
+20. 1 2 3 4
+
+21. 1 2 3
+
+22. 10 7 4 1
+
+23. There would be no output because the boolean expression would be false from the start.
+
+24. 10 7 4 1 -2
+
+25. -42
+
+26. A while statement makes sure the condition is true before running the loop.
+    A do-while statement runs the condition and then checks if the condition is true after running the loop.
+
+27. 2 4 8 16
+
+28. Hello 10
+    Hello 8
+    Hello 6
+    Hello 4
+    Hello 2
+    Hello 0
+
+29. 2 1.5 1 0.5
+
+30a. for(int i=1; i<=10; i++){
+    if((i<5)&&(i!=2)){
+        cout << 'X';
+    i++;
+    }
+}
+ b. for(int i =1; i<= 10; i=i+3){
+        cout << 'X';
+    }
+ 
+ c. for(long n = 100; n<1000; n=n+1000){
+        cout << 'X';
+ }

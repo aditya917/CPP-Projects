@@ -1,0 +1,27 @@
+1.  When a function with a a call-by-value parameter is invoked, what happens is that 
+    the value of the argument is passed to the parameter and it acts as a local variable.
+    The value of the variable that is passed as an argument does not change.
+
+2.  Yes, the following function will perform correctly. This because since the argument is 
+    pass by value, only the values will be used to calculate in the function.
+
+3.  1 20 3
+
+4.  Only the value of variable 2 would change to be the value of variable 1.
+    So in essence, these two variables would be the same value;
+
+5.  void zeroBoth(int& number1, int& number2){
+        number1 = 0;
+        number2 = 0;
+    }
+
+6.  void addTax(double taxRate, double& cost){
+        taxRate/=100;
+        cost = taxRate*cost+cost;
+    }
+
+7.  If the formal parameters were changed to call by value parameters, the value of n1 and n2 would not change.
+
+8.  The function that would be used is "int score(double points)";
+
+9.  The first "theAnswer" would be used because it has 2 double parameters.
